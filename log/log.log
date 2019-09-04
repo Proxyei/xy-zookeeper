@@ -1,0 +1,437 @@
+2019-09-04 00:49:02 002 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT
+2019-09-04 00:49:02 002 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:host.name=DESKTOP-NUUN904
+2019-09-04 00:49:02 002 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.version=11.0.4
+2019-09-04 00:49:02 002 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.vendor=Oracle Corporation
+2019-09-04 00:49:02 002 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.home=D:\Program Files\Java\jdk-11.0.4
+2019-09-04 00:49:02 002 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.class.path=E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper\target\test-classes;E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper\target\classes;E:\repository\maven339\com\101tec\zkclient\0.11\zkclient-0.11.jar;E:\repository\maven339\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;E:\repository\maven339\org\apache\zookeeper\zookeeper\3.4.13\zookeeper-3.4.13.jar;E:\repository\maven339\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;E:\repository\maven339\log4j\log4j\1.2.17\log4j-1.2.17.jar;E:\repository\maven339\jline\jline\0.9.94\jline-0.9.94.jar;E:\repository\maven339\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;E:\repository\maven339\io\netty\netty\3.10.6.Final\netty-3.10.6.Final.jar;E:\repository\maven339\junit\junit\4.12\junit-4.12.jar;E:\repository\maven339\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\sts-3.9.9.RELEASE\configuration\org.eclipse.osgi\305\0\.cp;D:\sts-3.9.9.RELEASE\configuration\org.eclipse.osgi\304\0\.cp
+2019-09-04 00:49:02 002 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.library.path=D:\Program Files\Java\jdk-11.0.4\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Java\jdk1.8.0_221\bin\;D:\apache-maven-3.6.0\bin\;D:\apache-maven-3.6.0\bin\;D:\Program Files\Git\cmd;D:\MySQL\MySQL Server 5.1\bin;D:\restclient\;C:\Users\future\AppData\Local\Microsoft\WindowsApps;;.
+2019-09-04 00:49:02 002 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.io.tmpdir=C:\Users\future\AppData\Local\Temp\
+2019-09-04 00:49:02 002 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.compiler=<NA>
+2019-09-04 00:49:02 002 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.name=Windows 10
+2019-09-04 00:49:02 002 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.arch=amd64
+2019-09-04 00:49:02 002 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.version=10.0
+2019-09-04 00:49:02 002 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.name=future
+2019-09-04 00:49:02 002 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.home=C:\Users\future
+2019-09-04 00:49:02 002 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.dir=E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper
+2019-09-04 00:49:02 002 [INFO ] [org.apache.zookeeper.ZooKeeper<init>] Initiating client connection, connectString=192.168.36.151:2181 sessionTimeout=70000 watcher=com.xywei.zookeeper.ZookeeperNode$1@60611244
+2019-09-04 00:49:02 002 [DEBUG] [org.apache.zookeeper.ClientCnxn<clinit>] zookeeper.disableAutoWatchReset is false
+2019-09-04 00:49:12 012 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadlogStartConnect] Opening socket connection to server 192.168.36.151/192.168.36.151:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-04 00:49:12 012 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadprimeConnection] Socket connection established to 192.168.36.151/192.168.36.151:2181, initiating session
+2019-09-04 00:49:12 012 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadprimeConnection] Session establishment request sent on 192.168.36.151/192.168.36.151:2181
+2019-09-04 00:49:12 012 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadonConnected] Session establishment complete on server 192.168.36.151/192.168.36.151:2181, sessionid = 0x16cf92aecf20004, negotiated timeout = 40000
+2019-09-04 00:49:12 012 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cf92aecf20004, packet:: clientPath:null serverPath:null finished:false header:: 1,8  replyHeader:: 1,34,0  request:: '/,F  response:: v{'xyjava,'zookeeper} 
+2019-09-04 00:49:12 012 [INFO ] [com.xywei.zookeeper.ZookeeperNodetestConnect] >>>>>>>>>>>>>>xyjava
+2019-09-04 00:49:12 012 [INFO ] [com.xywei.zookeeper.ZookeeperNodetestConnect] >>>>>>>>>>>>>>zookeeper
+2019-09-04 00:49:12 012 [DEBUG] [org.apache.zookeeper.ZooKeeperclose] Closing session: 0x16cf92aecf20004
+2019-09-04 00:49:12 012 [DEBUG] [org.apache.zookeeper.ClientCnxnclose] Closing client for session: 0x16cf92aecf20004
+2019-09-04 00:49:12 012 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cf92aecf20004, packet:: clientPath:null serverPath:null finished:false header:: 2,-11  replyHeader:: 2,35,0  request:: null response:: null
+2019-09-04 00:49:12 012 [DEBUG] [org.apache.zookeeper.ClientCnxndisconnect] Disconnecting client for session: 0x16cf92aecf20004
+2019-09-04 00:49:12 012 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadrun] An exception was thrown while closing send thread for session 0x16cf92aecf20004 : Unable to read additional data from server sessionid 0x16cf92aecf20004, likely server has closed socket
+2019-09-04 00:49:12 012 [INFO ] [org.apache.zookeeper.ZooKeeperclose] Session: 0x16cf92aecf20004 closed
+2019-09-04 00:49:12 012 [INFO ] [org.apache.zookeeper.ClientCnxn$EventThreadrun] EventThread shut down for session: 0x16cf92aecf20004
+2019-09-04 00:51:00 000 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT
+2019-09-04 00:51:00 000 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:host.name=DESKTOP-NUUN904
+2019-09-04 00:51:00 000 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.version=11.0.4
+2019-09-04 00:51:00 000 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.vendor=Oracle Corporation
+2019-09-04 00:51:00 000 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.home=D:\Program Files\Java\jdk-11.0.4
+2019-09-04 00:51:00 000 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.class.path=E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper\target\test-classes;E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper\target\classes;E:\repository\maven339\com\101tec\zkclient\0.11\zkclient-0.11.jar;E:\repository\maven339\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;E:\repository\maven339\org\apache\zookeeper\zookeeper\3.4.13\zookeeper-3.4.13.jar;E:\repository\maven339\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;E:\repository\maven339\log4j\log4j\1.2.17\log4j-1.2.17.jar;E:\repository\maven339\jline\jline\0.9.94\jline-0.9.94.jar;E:\repository\maven339\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;E:\repository\maven339\io\netty\netty\3.10.6.Final\netty-3.10.6.Final.jar;E:\repository\maven339\junit\junit\4.12\junit-4.12.jar;E:\repository\maven339\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\sts-3.9.9.RELEASE\configuration\org.eclipse.osgi\305\0\.cp;D:\sts-3.9.9.RELEASE\configuration\org.eclipse.osgi\304\0\.cp
+2019-09-04 00:51:00 000 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.library.path=D:\Program Files\Java\jdk-11.0.4\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Java\jdk1.8.0_221\bin\;D:\apache-maven-3.6.0\bin\;D:\apache-maven-3.6.0\bin\;D:\Program Files\Git\cmd;D:\MySQL\MySQL Server 5.1\bin;D:\restclient\;C:\Users\future\AppData\Local\Microsoft\WindowsApps;;.
+2019-09-04 00:51:00 000 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.io.tmpdir=C:\Users\future\AppData\Local\Temp\
+2019-09-04 00:51:00 000 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.compiler=<NA>
+2019-09-04 00:51:00 000 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.name=Windows 10
+2019-09-04 00:51:00 000 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.arch=amd64
+2019-09-04 00:51:00 000 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.version=10.0
+2019-09-04 00:51:00 000 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.name=future
+2019-09-04 00:51:00 000 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.home=C:\Users\future
+2019-09-04 00:51:00 000 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.dir=E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper
+2019-09-04 00:51:00 000 [INFO ] [org.apache.zookeeper.ZooKeeper<init>] Initiating client connection, connectString=192.168.36.151:2181 sessionTimeout=70000 watcher=com.xywei.zookeeper.ZookeeperNode$1@45dd4eda
+2019-09-04 00:51:00 000 [DEBUG] [org.apache.zookeeper.ClientCnxn<clinit>] zookeeper.disableAutoWatchReset is false
+2019-09-04 00:51:10 010 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadlogStartConnect] Opening socket connection to server 192.168.36.151/192.168.36.151:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-04 00:51:10 010 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadprimeConnection] Socket connection established to 192.168.36.151/192.168.36.151:2181, initiating session
+2019-09-04 00:51:10 010 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadprimeConnection] Session establishment request sent on 192.168.36.151/192.168.36.151:2181
+2019-09-04 00:51:10 010 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadonConnected] Session establishment complete on server 192.168.36.151/192.168.36.151:2181, sessionid = 0x16cf92aecf20005, negotiated timeout = 40000
+2019-09-04 00:51:10 010 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cf92aecf20005, packet:: clientPath:null serverPath:null finished:false header:: 1,8  replyHeader:: 1,36,0  request:: '/,F  response:: v{'xyjava,'zookeeper} 
+2019-09-04 00:51:10 010 [INFO ] [com.xywei.zookeeper.ZookeeperNodetestConnect] >>>>>>>>>>>>>>xyjava
+2019-09-04 00:51:10 010 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cf92aecf20005, packet:: clientPath:null serverPath:null finished:false header:: 2,4  replyHeader:: 2,36,0  request:: '/xyjava,F  response:: #7879776569,s{31,31,1567555110448,1567555110448,0,0,0,0,5,0,31} 
+2019-09-04 00:51:10 010 [INFO ] [com.xywei.zookeeper.ZookeeperNodetestConnect] **************[B@f5ac9e4
+2019-09-04 00:51:10 010 [INFO ] [com.xywei.zookeeper.ZookeeperNodetestConnect] >>>>>>>>>>>>>>zookeeper
+2019-09-04 00:51:10 010 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cf92aecf20005, packet:: clientPath:null serverPath:null finished:false header:: 3,4  replyHeader:: 3,36,0  request:: '/zookeeper,F  response:: ,s{0,0,0,0,0,-1,0,0,0,1,0} 
+2019-09-04 00:51:10 010 [INFO ] [com.xywei.zookeeper.ZookeeperNodetestConnect] **************[B@123ef382
+2019-09-04 00:51:10 010 [DEBUG] [org.apache.zookeeper.ZooKeeperclose] Closing session: 0x16cf92aecf20005
+2019-09-04 00:51:10 010 [DEBUG] [org.apache.zookeeper.ClientCnxnclose] Closing client for session: 0x16cf92aecf20005
+2019-09-04 00:51:10 010 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cf92aecf20005, packet:: clientPath:null serverPath:null finished:false header:: 4,-11  replyHeader:: 4,37,0  request:: null response:: null
+2019-09-04 00:51:10 010 [DEBUG] [org.apache.zookeeper.ClientCnxndisconnect] Disconnecting client for session: 0x16cf92aecf20005
+2019-09-04 00:51:10 010 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadrun] An exception was thrown while closing send thread for session 0x16cf92aecf20005 : Unable to read additional data from server sessionid 0x16cf92aecf20005, likely server has closed socket
+2019-09-04 00:51:10 010 [INFO ] [org.apache.zookeeper.ZooKeeperclose] Session: 0x16cf92aecf20005 closed
+2019-09-04 00:51:10 010 [INFO ] [org.apache.zookeeper.ClientCnxn$EventThreadrun] EventThread shut down for session: 0x16cf92aecf20005
+2019-09-04 09:11:29 029 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT
+2019-09-04 09:11:29 029 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:host.name=DESKTOP-NUUN904
+2019-09-04 09:11:29 029 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.version=1.8.0_221
+2019-09-04 09:11:29 029 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.vendor=Oracle Corporation
+2019-09-04 09:11:29 029 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.home=D:\Java\jdk1.8.0_221\jre
+2019-09-04 09:11:29 029 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.class.path=E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper\target\test-classes;E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper\target\classes;E:\repository\maven339\com\101tec\zkclient\0.11\zkclient-0.11.jar;E:\repository\maven339\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;E:\repository\maven339\org\apache\zookeeper\zookeeper\3.4.13\zookeeper-3.4.13.jar;E:\repository\maven339\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;E:\repository\maven339\log4j\log4j\1.2.17\log4j-1.2.17.jar;E:\repository\maven339\jline\jline\0.9.94\jline-0.9.94.jar;E:\repository\maven339\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;E:\repository\maven339\io\netty\netty\3.10.6.Final\netty-3.10.6.Final.jar;E:\repository\maven339\junit\junit\4.12\junit-4.12.jar;E:\repository\maven339\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\sts-3.9.9.RELEASE\configuration\org.eclipse.osgi\305\0\.cp;D:\sts-3.9.9.RELEASE\configuration\org.eclipse.osgi\304\0\.cp
+2019-09-04 09:11:29 029 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.library.path=D:\Java\jdk1.8.0_221\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Java/jre1.8.0_221/bin/server;D:/Java/jre1.8.0_221/bin;D:/Java/jre1.8.0_221/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Java\jdk1.8.0_221\bin\;D:\apache-maven-3.6.0\bin\;D:\apache-maven-3.6.0\bin\;D:\Program Files\Git\cmd;D:\MySQL\MySQL Server 5.1\bin;D:\restclient\;C:\Users\future\AppData\Local\Microsoft\WindowsApps;;D:\sts-3.9.9.RELEASE;;.
+2019-09-04 09:11:29 029 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.io.tmpdir=C:\Users\future\AppData\Local\Temp\
+2019-09-04 09:11:29 029 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.compiler=<NA>
+2019-09-04 09:11:29 029 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.name=Windows 10
+2019-09-04 09:11:29 029 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.arch=amd64
+2019-09-04 09:11:29 029 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.version=10.0
+2019-09-04 09:11:29 029 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.name=future
+2019-09-04 09:11:29 029 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.home=C:\Users\future
+2019-09-04 09:11:29 029 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.dir=E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper
+2019-09-04 09:11:29 029 [INFO ] [org.apache.zookeeper.ZooKeeper<init>] Initiating client connection, connectString=192.168.36.151:2181 sessionTimeout=70000 watcher=com.xywei.zookeeper.ZookeeperNode$1@7382f612
+2019-09-04 09:11:29 029 [DEBUG] [org.apache.zookeeper.ClientCnxn<clinit>] zookeeper.disableAutoWatchReset is false
+2019-09-04 09:11:38 038 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadlogStartConnect] Opening socket connection to server 192.168.36.151/192.168.36.151:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-04 09:12:00 000 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadrun] Socket error occurred: 192.168.36.151/192.168.36.151:2181: Connection timed out: no further information
+2019-09-04 09:12:00 000 [DEBUG] [org.apache.zookeeper.ClientCnxnSocketNIOcleanup] Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1250)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1174)
+2019-09-04 09:12:00 000 [DEBUG] [org.apache.zookeeper.ClientCnxnSocketNIOcleanup] Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1250)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1174)
+2019-09-04 09:12:00 000 [DEBUG] [org.apache.zookeeper.ZooKeeperclose] Closing session: 0x0
+2019-09-04 09:12:00 000 [DEBUG] [org.apache.zookeeper.ClientCnxnclose] Closing client for session: 0x0
+2019-09-04 09:12:10 010 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadlogStartConnect] Opening socket connection to server 192.168.36.151/192.168.36.151:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-04 09:12:31 031 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadrun] An exception was thrown while closing send thread for session 0x0 : Connection timed out: no further information
+2019-09-04 09:12:31 031 [DEBUG] [org.apache.zookeeper.ClientCnxnSocketNIOcleanup] Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1250)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1186)
+2019-09-04 09:12:31 031 [DEBUG] [org.apache.zookeeper.ClientCnxnSocketNIOcleanup] Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1250)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1186)
+2019-09-04 09:12:31 031 [DEBUG] [org.apache.zookeeper.ClientCnxndisconnect] Disconnecting client for session: 0x0
+2019-09-04 09:12:31 031 [INFO ] [org.apache.zookeeper.ZooKeeperclose] Session: 0x0 closed
+2019-09-04 09:12:31 031 [INFO ] [org.apache.zookeeper.ClientCnxn$EventThreadrun] EventThread shut down for session: 0x0
+2019-09-04 09:13:30 030 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT
+2019-09-04 09:13:30 030 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:host.name=DESKTOP-NUUN904
+2019-09-04 09:13:30 030 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.version=1.8.0_221
+2019-09-04 09:13:30 030 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.vendor=Oracle Corporation
+2019-09-04 09:13:30 030 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.home=D:\Java\jdk1.8.0_221\jre
+2019-09-04 09:13:30 030 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.class.path=E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper\target\test-classes;E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper\target\classes;E:\repository\maven339\com\101tec\zkclient\0.11\zkclient-0.11.jar;E:\repository\maven339\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;E:\repository\maven339\org\apache\zookeeper\zookeeper\3.4.13\zookeeper-3.4.13.jar;E:\repository\maven339\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;E:\repository\maven339\log4j\log4j\1.2.17\log4j-1.2.17.jar;E:\repository\maven339\jline\jline\0.9.94\jline-0.9.94.jar;E:\repository\maven339\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;E:\repository\maven339\io\netty\netty\3.10.6.Final\netty-3.10.6.Final.jar;E:\repository\maven339\junit\junit\4.12\junit-4.12.jar;E:\repository\maven339\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\sts-3.9.9.RELEASE\configuration\org.eclipse.osgi\305\0\.cp;D:\sts-3.9.9.RELEASE\configuration\org.eclipse.osgi\304\0\.cp
+2019-09-04 09:13:30 030 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.library.path=D:\Java\jdk1.8.0_221\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Java/jre1.8.0_221/bin/server;D:/Java/jre1.8.0_221/bin;D:/Java/jre1.8.0_221/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Java\jdk1.8.0_221\bin\;D:\apache-maven-3.6.0\bin\;D:\apache-maven-3.6.0\bin\;D:\Program Files\Git\cmd;D:\MySQL\MySQL Server 5.1\bin;D:\restclient\;C:\Users\future\AppData\Local\Microsoft\WindowsApps;;D:\sts-3.9.9.RELEASE;;.
+2019-09-04 09:13:30 030 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.io.tmpdir=C:\Users\future\AppData\Local\Temp\
+2019-09-04 09:13:30 030 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.compiler=<NA>
+2019-09-04 09:13:30 030 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.name=Windows 10
+2019-09-04 09:13:30 030 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.arch=amd64
+2019-09-04 09:13:30 030 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.version=10.0
+2019-09-04 09:13:30 030 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.name=future
+2019-09-04 09:13:30 030 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.home=C:\Users\future
+2019-09-04 09:13:30 030 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.dir=E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper
+2019-09-04 09:13:30 030 [INFO ] [org.apache.zookeeper.ZooKeeper<init>] Initiating client connection, connectString=192.168.36.151:2181 sessionTimeout=70000 watcher=com.xywei.zookeeper.ZookeeperNode$1@7382f612
+2019-09-04 09:13:30 030 [DEBUG] [org.apache.zookeeper.ClientCnxn<clinit>] zookeeper.disableAutoWatchReset is false
+2019-09-04 09:13:39 039 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadlogStartConnect] Opening socket connection to server 192.168.36.151/192.168.36.151:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-04 09:13:39 039 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadprimeConnection] Socket connection established to 192.168.36.151/192.168.36.151:2181, initiating session
+2019-09-04 09:13:39 039 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadprimeConnection] Session establishment request sent on 192.168.36.151/192.168.36.151:2181
+2019-09-04 09:13:39 039 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadonConnected] Session establishment complete on server 192.168.36.151/192.168.36.151:2181, sessionid = 0x16cfb81e2610000, negotiated timeout = 40000
+2019-09-04 09:13:40 040 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e2610000, packet:: clientPath:null serverPath:null finished:false header:: 1,8  replyHeader:: 1,39,0  request:: '/,F  response:: v{'xyjava,'zookeeper} 
+2019-09-04 09:13:40 040 [INFO ] [com.xywei.zookeeper.ZookeeperNodetestConnect] >>>>>>>>>>>>>>xyjava
+2019-09-04 09:13:40 040 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e2610000, packet:: clientPath:null serverPath:null finished:false header:: 2,4  replyHeader:: 2,39,0  request:: '/xyjava,F  response:: #7879776569,s{31,31,1567555110448,1567555110448,0,0,0,0,5,0,31} 
+2019-09-04 09:13:40 040 [INFO ] [com.xywei.zookeeper.ZookeeperNodetestConnect] **************[B@45c8e616
+2019-09-04 09:13:40 040 [INFO ] [com.xywei.zookeeper.ZookeeperNodetestConnect] >>>>>>>>>>>>>>zookeeper
+2019-09-04 09:13:40 040 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e2610000, packet:: clientPath:null serverPath:null finished:false header:: 3,4  replyHeader:: 3,39,0  request:: '/zookeeper,F  response:: ,s{0,0,0,0,0,-1,0,0,0,1,0} 
+2019-09-04 09:13:40 040 [INFO ] [com.xywei.zookeeper.ZookeeperNodetestConnect] **************[B@4cdbe50f
+2019-09-04 09:13:40 040 [DEBUG] [org.apache.zookeeper.ZooKeeperclose] Closing session: 0x16cfb81e2610000
+2019-09-04 09:13:40 040 [DEBUG] [org.apache.zookeeper.ClientCnxnclose] Closing client for session: 0x16cfb81e2610000
+2019-09-04 09:13:40 040 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e2610000, packet:: clientPath:null serverPath:null finished:false header:: 4,-11  replyHeader:: 4,40,0  request:: null response:: null
+2019-09-04 09:13:40 040 [DEBUG] [org.apache.zookeeper.ClientCnxndisconnect] Disconnecting client for session: 0x16cfb81e2610000
+2019-09-04 09:13:40 040 [INFO ] [org.apache.zookeeper.ZooKeeperclose] Session: 0x16cfb81e2610000 closed
+2019-09-04 09:13:40 040 [INFO ] [org.apache.zookeeper.ClientCnxn$EventThreadrun] EventThread shut down for session: 0x16cfb81e2610000
+2019-09-04 09:23:19 019 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT
+2019-09-04 09:23:19 019 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:host.name=DESKTOP-NUUN904
+2019-09-04 09:23:19 019 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.version=1.8.0_221
+2019-09-04 09:23:19 019 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.vendor=Oracle Corporation
+2019-09-04 09:23:19 019 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.home=D:\Java\jdk1.8.0_221\jre
+2019-09-04 09:23:19 019 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.class.path=E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper\target\test-classes;E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper\target\classes;E:\repository\maven339\com\101tec\zkclient\0.11\zkclient-0.11.jar;E:\repository\maven339\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;E:\repository\maven339\org\apache\zookeeper\zookeeper\3.4.13\zookeeper-3.4.13.jar;E:\repository\maven339\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;E:\repository\maven339\log4j\log4j\1.2.17\log4j-1.2.17.jar;E:\repository\maven339\jline\jline\0.9.94\jline-0.9.94.jar;E:\repository\maven339\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;E:\repository\maven339\io\netty\netty\3.10.6.Final\netty-3.10.6.Final.jar;E:\repository\maven339\junit\junit\4.12\junit-4.12.jar;E:\repository\maven339\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\sts-3.9.9.RELEASE\configuration\org.eclipse.osgi\305\0\.cp;D:\sts-3.9.9.RELEASE\configuration\org.eclipse.osgi\304\0\.cp
+2019-09-04 09:23:19 019 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.library.path=D:\Java\jdk1.8.0_221\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Java/jre1.8.0_221/bin/server;D:/Java/jre1.8.0_221/bin;D:/Java/jre1.8.0_221/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Java\jdk1.8.0_221\bin\;D:\apache-maven-3.6.0\bin\;D:\apache-maven-3.6.0\bin\;D:\Program Files\Git\cmd;D:\MySQL\MySQL Server 5.1\bin;D:\restclient\;C:\Users\future\AppData\Local\Microsoft\WindowsApps;;D:\sts-3.9.9.RELEASE;;.
+2019-09-04 09:23:19 019 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.io.tmpdir=C:\Users\future\AppData\Local\Temp\
+2019-09-04 09:23:19 019 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.compiler=<NA>
+2019-09-04 09:23:19 019 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.name=Windows 10
+2019-09-04 09:23:19 019 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.arch=amd64
+2019-09-04 09:23:19 019 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.version=10.0
+2019-09-04 09:23:19 019 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.name=future
+2019-09-04 09:23:19 019 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.home=C:\Users\future
+2019-09-04 09:23:19 019 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.dir=E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper
+2019-09-04 09:23:19 019 [INFO ] [org.apache.zookeeper.ZooKeeper<init>] Initiating client connection, connectString=192.168.36.151:2181 sessionTimeout=70000 watcher=com.xywei.zookeeper.ZookeeperNode$1@7382f612
+2019-09-04 09:23:19 019 [DEBUG] [org.apache.zookeeper.ClientCnxn<clinit>] zookeeper.disableAutoWatchReset is false
+2019-09-04 09:23:30 030 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadlogStartConnect] Opening socket connection to server 192.168.36.151/192.168.36.151:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-04 09:23:30 030 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadprimeConnection] Socket connection established to 192.168.36.151/192.168.36.151:2181, initiating session
+2019-09-04 09:23:30 030 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadprimeConnection] Session establishment request sent on 192.168.36.151/192.168.36.151:2181
+2019-09-04 09:23:30 030 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadonConnected] Session establishment complete on server 192.168.36.151/192.168.36.151:2181, sessionid = 0x16cfb81e2610002, negotiated timeout = 40000
+2019-09-04 09:23:30 030 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e2610002, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,44,0  request:: '/java,#ffffffe6ffffff9dffffffa5ffffffe8ffffff87ffffffaa6a617661,v{s{31,s{'world,'anyone}}},2  response:: '/java0000000005 
+2019-09-04 09:23:30 030 [INFO ] [com.xywei.zookeeper.ZookeeperNodetestCreateNode] 添加节点的信息：>>>>>>>>>>>>>>>>>>>>>>>>/java0000000005
+2019-09-04 09:23:30 030 [DEBUG] [org.apache.zookeeper.ZooKeeperclose] Closing session: 0x16cfb81e2610002
+2019-09-04 09:23:30 030 [DEBUG] [org.apache.zookeeper.ClientCnxnclose] Closing client for session: 0x16cfb81e2610002
+2019-09-04 09:23:30 030 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e2610002, packet:: clientPath:null serverPath:null finished:false header:: 2,-11  replyHeader:: 2,45,0  request:: null response:: null
+2019-09-04 09:23:30 030 [DEBUG] [org.apache.zookeeper.ClientCnxndisconnect] Disconnecting client for session: 0x16cfb81e2610002
+2019-09-04 09:23:30 030 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadrun] An exception was thrown while closing send thread for session 0x16cfb81e2610002 : Unable to read additional data from server sessionid 0x16cfb81e2610002, likely server has closed socket
+2019-09-04 09:23:30 030 [INFO ] [org.apache.zookeeper.ZooKeeperclose] Session: 0x16cfb81e2610002 closed
+2019-09-04 09:23:30 030 [INFO ] [org.apache.zookeeper.ClientCnxn$EventThreadrun] EventThread shut down for session: 0x16cfb81e2610002
+2019-09-04 09:25:40 040 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT
+2019-09-04 09:25:40 040 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:host.name=DESKTOP-NUUN904
+2019-09-04 09:25:40 040 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.version=1.8.0_221
+2019-09-04 09:25:40 040 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.vendor=Oracle Corporation
+2019-09-04 09:25:40 040 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.home=D:\Java\jdk1.8.0_221\jre
+2019-09-04 09:25:40 040 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.class.path=E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper\target\test-classes;E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper\target\classes;E:\repository\maven339\com\101tec\zkclient\0.11\zkclient-0.11.jar;E:\repository\maven339\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;E:\repository\maven339\org\apache\zookeeper\zookeeper\3.4.13\zookeeper-3.4.13.jar;E:\repository\maven339\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;E:\repository\maven339\log4j\log4j\1.2.17\log4j-1.2.17.jar;E:\repository\maven339\jline\jline\0.9.94\jline-0.9.94.jar;E:\repository\maven339\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;E:\repository\maven339\io\netty\netty\3.10.6.Final\netty-3.10.6.Final.jar;E:\repository\maven339\junit\junit\4.12\junit-4.12.jar;E:\repository\maven339\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\sts-3.9.9.RELEASE\configuration\org.eclipse.osgi\305\0\.cp;D:\sts-3.9.9.RELEASE\configuration\org.eclipse.osgi\304\0\.cp
+2019-09-04 09:25:40 040 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.library.path=D:\Java\jdk1.8.0_221\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Java/jre1.8.0_221/bin/server;D:/Java/jre1.8.0_221/bin;D:/Java/jre1.8.0_221/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Java\jdk1.8.0_221\bin\;D:\apache-maven-3.6.0\bin\;D:\apache-maven-3.6.0\bin\;D:\Program Files\Git\cmd;D:\MySQL\MySQL Server 5.1\bin;D:\restclient\;C:\Users\future\AppData\Local\Microsoft\WindowsApps;;D:\sts-3.9.9.RELEASE;;.
+2019-09-04 09:25:40 040 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.io.tmpdir=C:\Users\future\AppData\Local\Temp\
+2019-09-04 09:25:40 040 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.compiler=<NA>
+2019-09-04 09:25:40 040 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.name=Windows 10
+2019-09-04 09:25:40 040 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.arch=amd64
+2019-09-04 09:25:40 040 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.version=10.0
+2019-09-04 09:25:40 040 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.name=future
+2019-09-04 09:25:40 040 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.home=C:\Users\future
+2019-09-04 09:25:40 040 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.dir=E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper
+2019-09-04 09:25:40 040 [INFO ] [org.apache.zookeeper.ZooKeeper<init>] Initiating client connection, connectString=192.168.36.151:2181 sessionTimeout=70000 watcher=com.xywei.zookeeper.ZookeeperNode$1@7382f612
+2019-09-04 09:25:40 040 [DEBUG] [org.apache.zookeeper.ClientCnxn<clinit>] zookeeper.disableAutoWatchReset is false
+2019-09-04 09:25:50 050 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadlogStartConnect] Opening socket connection to server 192.168.36.151/192.168.36.151:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-04 09:25:50 050 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadprimeConnection] Socket connection established to 192.168.36.151/192.168.36.151:2181, initiating session
+2019-09-04 09:25:50 050 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadprimeConnection] Session establishment request sent on 192.168.36.151/192.168.36.151:2181
+2019-09-04 09:25:50 050 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadonConnected] Session establishment complete on server 192.168.36.151/192.168.36.151:2181, sessionid = 0x16cfb81e2610003, negotiated timeout = 40000
+2019-09-04 09:25:50 050 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e2610003, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,47,-101  request:: '/java/spring,#ffffffe6ffffff9dffffffa5ffffffe8ffffff87ffffffaa6a617661,v{s{31,s{'world,'anyone}}},2  response::  
+2019-09-04 09:25:50 050 [ERROR] [com.xywei.zookeeper.ZookeeperNodetestCreateNode] KeeperErrorCode = NoNode for /java/spring
+2019-09-04 09:25:50 050 [DEBUG] [org.apache.zookeeper.ZooKeeperclose] Closing session: 0x16cfb81e2610003
+2019-09-04 09:25:50 050 [DEBUG] [org.apache.zookeeper.ClientCnxnclose] Closing client for session: 0x16cfb81e2610003
+2019-09-04 09:25:50 050 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e2610003, packet:: clientPath:null serverPath:null finished:false header:: 2,-11  replyHeader:: 2,48,0  request:: null response:: null
+2019-09-04 09:25:50 050 [DEBUG] [org.apache.zookeeper.ClientCnxndisconnect] Disconnecting client for session: 0x16cfb81e2610003
+2019-09-04 09:25:50 050 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadrun] An exception was thrown while closing send thread for session 0x16cfb81e2610003 : Unable to read additional data from server sessionid 0x16cfb81e2610003, likely server has closed socket
+2019-09-04 09:25:50 050 [INFO ] [org.apache.zookeeper.ZooKeeperclose] Session: 0x16cfb81e2610003 closed
+2019-09-04 09:25:50 050 [INFO ] [org.apache.zookeeper.ClientCnxn$EventThreadrun] EventThread shut down for session: 0x16cfb81e2610003
+2019-09-04 09:32:54 054 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT
+2019-09-04 09:32:54 054 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:host.name=DESKTOP-NUUN904
+2019-09-04 09:32:54 054 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.version=1.8.0_221
+2019-09-04 09:32:54 054 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.vendor=Oracle Corporation
+2019-09-04 09:32:54 054 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.home=D:\Java\jdk1.8.0_221\jre
+2019-09-04 09:32:54 054 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.class.path=E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper\target\test-classes;E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper\target\classes;E:\repository\maven339\com\101tec\zkclient\0.11\zkclient-0.11.jar;E:\repository\maven339\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;E:\repository\maven339\org\apache\zookeeper\zookeeper\3.4.13\zookeeper-3.4.13.jar;E:\repository\maven339\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;E:\repository\maven339\log4j\log4j\1.2.17\log4j-1.2.17.jar;E:\repository\maven339\jline\jline\0.9.94\jline-0.9.94.jar;E:\repository\maven339\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;E:\repository\maven339\io\netty\netty\3.10.6.Final\netty-3.10.6.Final.jar;E:\repository\maven339\junit\junit\4.12\junit-4.12.jar;E:\repository\maven339\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\sts-3.9.9.RELEASE\configuration\org.eclipse.osgi\305\0\.cp;D:\sts-3.9.9.RELEASE\configuration\org.eclipse.osgi\304\0\.cp
+2019-09-04 09:32:54 054 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.library.path=D:\Java\jdk1.8.0_221\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Java/jre1.8.0_221/bin/server;D:/Java/jre1.8.0_221/bin;D:/Java/jre1.8.0_221/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Java\jdk1.8.0_221\bin\;D:\apache-maven-3.6.0\bin\;D:\apache-maven-3.6.0\bin\;D:\Program Files\Git\cmd;D:\MySQL\MySQL Server 5.1\bin;D:\restclient\;C:\Users\future\AppData\Local\Microsoft\WindowsApps;;D:\sts-3.9.9.RELEASE;;.
+2019-09-04 09:32:54 054 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.io.tmpdir=C:\Users\future\AppData\Local\Temp\
+2019-09-04 09:32:54 054 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.compiler=<NA>
+2019-09-04 09:32:54 054 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.name=Windows 10
+2019-09-04 09:32:54 054 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.arch=amd64
+2019-09-04 09:32:54 054 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.version=10.0
+2019-09-04 09:32:54 054 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.name=future
+2019-09-04 09:32:54 054 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.home=C:\Users\future
+2019-09-04 09:32:54 054 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.dir=E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper
+2019-09-04 09:32:54 054 [INFO ] [org.apache.zookeeper.ZooKeeper<init>] Initiating client connection, connectString=192.168.36.151:2181 sessionTimeout=70000 watcher=com.xywei.zookeeper.ZookeeperNode$1@7382f612
+2019-09-04 09:32:54 054 [DEBUG] [org.apache.zookeeper.ClientCnxn<clinit>] zookeeper.disableAutoWatchReset is false
+2019-09-04 09:33:04 004 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadlogStartConnect] Opening socket connection to server 192.168.36.151/192.168.36.151:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-04 09:33:04 004 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadprimeConnection] Socket connection established to 192.168.36.151/192.168.36.151:2181, initiating session
+2019-09-04 09:33:04 004 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadprimeConnection] Session establishment request sent on 192.168.36.151/192.168.36.151:2181
+2019-09-04 09:33:04 004 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadonConnected] Session establishment complete on server 192.168.36.151/192.168.36.151:2181, sessionid = 0x16cfb81e2610005, negotiated timeout = 40000
+2019-09-04 09:33:04 004 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e2610005, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,50,-101  request:: '/java,F  response::  
+2019-09-04 09:33:04 004 [DEBUG] [org.apache.zookeeper.ZooKeeperclose] Closing session: 0x16cfb81e2610005
+2019-09-04 09:33:04 004 [DEBUG] [org.apache.zookeeper.ClientCnxnclose] Closing client for session: 0x16cfb81e2610005
+2019-09-04 09:33:04 004 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e2610005, packet:: clientPath:null serverPath:null finished:false header:: 2,-11  replyHeader:: 2,51,0  request:: null response:: null
+2019-09-04 09:33:04 004 [DEBUG] [org.apache.zookeeper.ClientCnxndisconnect] Disconnecting client for session: 0x16cfb81e2610005
+2019-09-04 09:33:04 004 [INFO ] [org.apache.zookeeper.ZooKeeperclose] Session: 0x16cfb81e2610005 closed
+2019-09-04 09:33:04 004 [INFO ] [org.apache.zookeeper.ClientCnxn$EventThreadrun] EventThread shut down for session: 0x16cfb81e2610005
+2019-09-04 09:33:23 023 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT
+2019-09-04 09:33:23 023 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:host.name=DESKTOP-NUUN904
+2019-09-04 09:33:23 023 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.version=1.8.0_221
+2019-09-04 09:33:23 023 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.vendor=Oracle Corporation
+2019-09-04 09:33:23 023 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.home=D:\Java\jdk1.8.0_221\jre
+2019-09-04 09:33:23 023 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.class.path=E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper\target\test-classes;E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper\target\classes;E:\repository\maven339\com\101tec\zkclient\0.11\zkclient-0.11.jar;E:\repository\maven339\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;E:\repository\maven339\org\apache\zookeeper\zookeeper\3.4.13\zookeeper-3.4.13.jar;E:\repository\maven339\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;E:\repository\maven339\log4j\log4j\1.2.17\log4j-1.2.17.jar;E:\repository\maven339\jline\jline\0.9.94\jline-0.9.94.jar;E:\repository\maven339\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;E:\repository\maven339\io\netty\netty\3.10.6.Final\netty-3.10.6.Final.jar;E:\repository\maven339\junit\junit\4.12\junit-4.12.jar;E:\repository\maven339\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\sts-3.9.9.RELEASE\configuration\org.eclipse.osgi\305\0\.cp;D:\sts-3.9.9.RELEASE\configuration\org.eclipse.osgi\304\0\.cp
+2019-09-04 09:33:23 023 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.library.path=D:\Java\jdk1.8.0_221\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Java/jre1.8.0_221/bin/server;D:/Java/jre1.8.0_221/bin;D:/Java/jre1.8.0_221/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Java\jdk1.8.0_221\bin\;D:\apache-maven-3.6.0\bin\;D:\apache-maven-3.6.0\bin\;D:\Program Files\Git\cmd;D:\MySQL\MySQL Server 5.1\bin;D:\restclient\;C:\Users\future\AppData\Local\Microsoft\WindowsApps;;D:\sts-3.9.9.RELEASE;;.
+2019-09-04 09:33:23 023 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.io.tmpdir=C:\Users\future\AppData\Local\Temp\
+2019-09-04 09:33:23 023 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.compiler=<NA>
+2019-09-04 09:33:24 024 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.name=Windows 10
+2019-09-04 09:33:24 024 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.arch=amd64
+2019-09-04 09:33:24 024 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.version=10.0
+2019-09-04 09:33:24 024 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.name=future
+2019-09-04 09:33:24 024 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.home=C:\Users\future
+2019-09-04 09:33:24 024 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.dir=E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper
+2019-09-04 09:33:24 024 [INFO ] [org.apache.zookeeper.ZooKeeper<init>] Initiating client connection, connectString=192.168.36.151:2181 sessionTimeout=70000 watcher=com.xywei.zookeeper.ZookeeperNode$1@7382f612
+2019-09-04 09:33:24 024 [DEBUG] [org.apache.zookeeper.ClientCnxn<clinit>] zookeeper.disableAutoWatchReset is false
+2019-09-04 09:33:33 033 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadlogStartConnect] Opening socket connection to server 192.168.36.151/192.168.36.151:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-04 09:33:33 033 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadprimeConnection] Socket connection established to 192.168.36.151/192.168.36.151:2181, initiating session
+2019-09-04 09:33:34 034 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadprimeConnection] Session establishment request sent on 192.168.36.151/192.168.36.151:2181
+2019-09-04 09:33:34 034 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadonConnected] Session establishment complete on server 192.168.36.151/192.168.36.151:2181, sessionid = 0x16cfb81e2610006, negotiated timeout = 40000
+2019-09-04 09:33:34 034 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e2610006, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,52,-101  request:: '/java,F  response::  
+2019-09-04 09:33:34 034 [INFO ] [com.xywei.zookeeper.ZookeeperNodetestCreateNode] 节点不存在
+2019-09-04 09:33:34 034 [DEBUG] [org.apache.zookeeper.ZooKeeperclose] Closing session: 0x16cfb81e2610006
+2019-09-04 09:33:34 034 [DEBUG] [org.apache.zookeeper.ClientCnxnclose] Closing client for session: 0x16cfb81e2610006
+2019-09-04 09:33:34 034 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e2610006, packet:: clientPath:null serverPath:null finished:false header:: 2,-11  replyHeader:: 2,53,0  request:: null response:: null
+2019-09-04 09:33:34 034 [DEBUG] [org.apache.zookeeper.ClientCnxndisconnect] Disconnecting client for session: 0x16cfb81e2610006
+2019-09-04 09:33:34 034 [INFO ] [org.apache.zookeeper.ZooKeeperclose] Session: 0x16cfb81e2610006 closed
+2019-09-04 09:33:34 034 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadrun] An exception was thrown while closing send thread for session 0x16cfb81e2610006 : Unable to read additional data from server sessionid 0x16cfb81e2610006, likely server has closed socket
+2019-09-04 09:33:34 034 [INFO ] [org.apache.zookeeper.ClientCnxn$EventThreadrun] EventThread shut down for session: 0x16cfb81e2610006
+2019-09-04 11:26:24 024 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT
+2019-09-04 11:26:24 024 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:host.name=DESKTOP-NUUN904
+2019-09-04 11:26:24 024 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.version=1.8.0_221
+2019-09-04 11:26:24 024 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.vendor=Oracle Corporation
+2019-09-04 11:26:24 024 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.home=D:\Java\jdk1.8.0_221\jre
+2019-09-04 11:26:24 024 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.class.path=E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper\target\test-classes;E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper\target\classes;E:\repository\maven339\com\101tec\zkclient\0.11\zkclient-0.11.jar;E:\repository\maven339\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;E:\repository\maven339\org\apache\zookeeper\zookeeper\3.4.13\zookeeper-3.4.13.jar;E:\repository\maven339\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;E:\repository\maven339\log4j\log4j\1.2.17\log4j-1.2.17.jar;E:\repository\maven339\jline\jline\0.9.94\jline-0.9.94.jar;E:\repository\maven339\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;E:\repository\maven339\io\netty\netty\3.10.6.Final\netty-3.10.6.Final.jar;E:\repository\maven339\junit\junit\4.12\junit-4.12.jar;E:\repository\maven339\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\sts-3.9.9.RELEASE\configuration\org.eclipse.osgi\305\0\.cp;D:\sts-3.9.9.RELEASE\configuration\org.eclipse.osgi\304\0\.cp
+2019-09-04 11:26:24 024 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.library.path=D:\Java\jdk1.8.0_221\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Java/jre1.8.0_221/bin/server;D:/Java/jre1.8.0_221/bin;D:/Java/jre1.8.0_221/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Java\jdk1.8.0_221\bin\;D:\apache-maven-3.6.0\bin\;D:\apache-maven-3.6.0\bin\;D:\Program Files\Git\cmd;D:\MySQL\MySQL Server 5.1\bin;D:\restclient\;C:\Users\future\AppData\Local\Microsoft\WindowsApps;;D:\sts-3.9.9.RELEASE;;.
+2019-09-04 11:26:24 024 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.io.tmpdir=C:\Users\future\AppData\Local\Temp\
+2019-09-04 11:26:24 024 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.compiler=<NA>
+2019-09-04 11:26:24 024 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.name=Windows 10
+2019-09-04 11:26:24 024 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.arch=amd64
+2019-09-04 11:26:24 024 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.version=10.0
+2019-09-04 11:26:24 024 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.name=future
+2019-09-04 11:26:24 024 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.home=C:\Users\future
+2019-09-04 11:26:24 024 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.dir=E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper
+2019-09-04 11:26:24 024 [INFO ] [org.apache.zookeeper.ZooKeeper<init>] Initiating client connection, connectString=192.168.36.151:2181 sessionTimeout=70000 watcher=com.xywei.zookeeper.ZookeeperNode$1@7382f612
+2019-09-04 11:26:24 024 [DEBUG] [org.apache.zookeeper.ClientCnxn<clinit>] zookeeper.disableAutoWatchReset is false
+2019-09-04 11:26:34 034 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadlogStartConnect] Opening socket connection to server 192.168.36.151/192.168.36.151:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-04 11:26:34 034 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadprimeConnection] Socket connection established to 192.168.36.151/192.168.36.151:2181, initiating session
+2019-09-04 11:26:34 034 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadprimeConnection] Session establishment request sent on 192.168.36.151/192.168.36.151:2181
+2019-09-04 11:26:34 034 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadonConnected] Session establishment complete on server 192.168.36.151/192.168.36.151:2181, sessionid = 0x16cfb81e2610007, negotiated timeout = 40000
+2019-09-04 11:26:34 034 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e2610007, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,54,-101  request:: '/java,F  response::  
+2019-09-04 11:26:34 034 [INFO ] [com.xywei.zookeeper.ZookeeperNodetestCreateNodes] /java已经存在
+2019-09-04 11:26:34 034 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e2610007, packet:: clientPath:null serverPath:null finished:false header:: 2,3  replyHeader:: 2,54,-101  request:: '/java/spring,F  response::  
+2019-09-04 11:26:34 034 [INFO ] [com.xywei.zookeeper.ZookeeperNodetestCreateNodes] /java/spring已经存在
+2019-09-04 11:26:34 034 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e2610007, packet:: clientPath:null serverPath:null finished:false header:: 3,3  replyHeader:: 3,54,-101  request:: '/java/spring/ioc,F  response::  
+2019-09-04 11:26:34 034 [INFO ] [com.xywei.zookeeper.ZookeeperNodetestCreateNodes] /java/spring/ioc已经存在
+2019-09-04 11:26:34 034 [INFO ] [com.xywei.zookeeper.ZookeeperNodetestCreateNodes] >>>>>[/java, /java/spring, /java/spring/ioc]
+2019-09-04 11:26:34 034 [DEBUG] [org.apache.zookeeper.ZooKeeperclose] Closing session: 0x16cfb81e2610007
+2019-09-04 11:26:34 034 [DEBUG] [org.apache.zookeeper.ClientCnxnclose] Closing client for session: 0x16cfb81e2610007
+2019-09-04 11:26:34 034 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e2610007, packet:: clientPath:null serverPath:null finished:false header:: 4,-11  replyHeader:: 4,55,0  request:: null response:: null
+2019-09-04 11:26:34 034 [DEBUG] [org.apache.zookeeper.ClientCnxndisconnect] Disconnecting client for session: 0x16cfb81e2610007
+2019-09-04 11:26:34 034 [INFO ] [org.apache.zookeeper.ZooKeeperclose] Session: 0x16cfb81e2610007 closed
+2019-09-04 11:26:34 034 [INFO ] [org.apache.zookeeper.ClientCnxn$EventThreadrun] EventThread shut down for session: 0x16cfb81e2610007
+2019-09-04 11:31:42 042 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT
+2019-09-04 11:31:42 042 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:host.name=DESKTOP-NUUN904
+2019-09-04 11:31:42 042 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.version=1.8.0_221
+2019-09-04 11:31:42 042 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.vendor=Oracle Corporation
+2019-09-04 11:31:42 042 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.home=D:\Java\jdk1.8.0_221\jre
+2019-09-04 11:31:42 042 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.class.path=E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper\target\test-classes;E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper\target\classes;E:\repository\maven339\com\101tec\zkclient\0.11\zkclient-0.11.jar;E:\repository\maven339\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;E:\repository\maven339\org\apache\zookeeper\zookeeper\3.4.13\zookeeper-3.4.13.jar;E:\repository\maven339\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;E:\repository\maven339\log4j\log4j\1.2.17\log4j-1.2.17.jar;E:\repository\maven339\jline\jline\0.9.94\jline-0.9.94.jar;E:\repository\maven339\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;E:\repository\maven339\io\netty\netty\3.10.6.Final\netty-3.10.6.Final.jar;E:\repository\maven339\junit\junit\4.12\junit-4.12.jar;E:\repository\maven339\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\sts-3.9.9.RELEASE\configuration\org.eclipse.osgi\305\0\.cp;D:\sts-3.9.9.RELEASE\configuration\org.eclipse.osgi\304\0\.cp
+2019-09-04 11:31:42 042 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.library.path=D:\Java\jdk1.8.0_221\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Java/jre1.8.0_221/bin/server;D:/Java/jre1.8.0_221/bin;D:/Java/jre1.8.0_221/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Java\jdk1.8.0_221\bin\;D:\apache-maven-3.6.0\bin\;D:\apache-maven-3.6.0\bin\;D:\Program Files\Git\cmd;D:\MySQL\MySQL Server 5.1\bin;D:\restclient\;C:\Users\future\AppData\Local\Microsoft\WindowsApps;;D:\sts-3.9.9.RELEASE;;.
+2019-09-04 11:31:42 042 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.io.tmpdir=C:\Users\future\AppData\Local\Temp\
+2019-09-04 11:31:42 042 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.compiler=<NA>
+2019-09-04 11:31:42 042 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.name=Windows 10
+2019-09-04 11:31:42 042 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.arch=amd64
+2019-09-04 11:31:42 042 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.version=10.0
+2019-09-04 11:31:42 042 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.name=future
+2019-09-04 11:31:42 042 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.home=C:\Users\future
+2019-09-04 11:31:42 042 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.dir=E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper
+2019-09-04 11:31:42 042 [INFO ] [org.apache.zookeeper.ZooKeeper<init>] Initiating client connection, connectString=192.168.36.151:2181 sessionTimeout=70000 watcher=com.xywei.zookeeper.ZookeeperNode$1@7382f612
+2019-09-04 11:31:42 042 [DEBUG] [org.apache.zookeeper.ClientCnxn<clinit>] zookeeper.disableAutoWatchReset is false
+2019-09-04 11:31:42 042 [INFO ] [com.xywei.zookeeper.ZookeeperNodetestCreateNodes] 要创建的节点是[/java, /java/spring, /java/spring/ioc]
+2019-09-04 11:31:51 051 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadlogStartConnect] Opening socket connection to server 192.168.36.151/192.168.36.151:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-04 11:31:51 051 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadprimeConnection] Socket connection established to 192.168.36.151/192.168.36.151:2181, initiating session
+2019-09-04 11:31:51 051 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadprimeConnection] Session establishment request sent on 192.168.36.151/192.168.36.151:2181
+2019-09-04 11:31:51 051 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadonConnected] Session establishment complete on server 192.168.36.151/192.168.36.151:2181, sessionid = 0x16cfb81e2610008, negotiated timeout = 40000
+2019-09-04 11:31:51 051 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e2610008, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,56,-101  request:: '/java,F  response::  
+2019-09-04 11:31:51 051 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e2610008, packet:: clientPath:null serverPath:null finished:false header:: 2,1  replyHeader:: 2,57,0  request:: '/java,#ffffffe6ffffff88ffffff91ffffffe7ffffff9affffff84ffffffe8ffffffb7ffffffafffffffe5ffffffbeffffff84ffffffe6ffffff98ffffffaf2f6a617661,v{s{31,s{'world,'anyone}}},0  response:: '/java 
+2019-09-04 11:31:51 051 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e2610008, packet:: clientPath:null serverPath:null finished:false header:: 3,3  replyHeader:: 3,57,-101  request:: '/java/spring,F  response::  
+2019-09-04 11:31:51 051 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e2610008, packet:: clientPath:null serverPath:null finished:false header:: 4,1  replyHeader:: 4,58,0  request:: '/java/spring,#ffffffe6ffffff88ffffff91ffffffe7ffffff9affffff84ffffffe8ffffffb7ffffffafffffffe5ffffffbeffffff84ffffffe6ffffff98ffffffaf2f6a6176612f737072696e67,v{s{31,s{'world,'anyone}}},0  response:: '/java/spring 
+2019-09-04 11:31:51 051 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e2610008, packet:: clientPath:null serverPath:null finished:false header:: 5,3  replyHeader:: 5,58,-101  request:: '/java/spring/ioc,F  response::  
+2019-09-04 11:31:51 051 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e2610008, packet:: clientPath:null serverPath:null finished:false header:: 6,1  replyHeader:: 6,59,0  request:: '/java/spring/ioc,#ffffffe6ffffff88ffffff91ffffffe7ffffff9affffff84ffffffe8ffffffb7ffffffafffffffe5ffffffbeffffff84ffffffe6ffffff98ffffffaf2f6a6176612f737072696e672f696f63,v{s{31,s{'world,'anyone}}},0  response:: '/java/spring/ioc 
+2019-09-04 11:31:51 051 [INFO ] [com.xywei.zookeeper.ZookeeperNodetestCreateNodes] >>>>>[/java, /java/spring, /java/spring/ioc]
+2019-09-04 11:31:52 052 [DEBUG] [org.apache.zookeeper.ZooKeeperclose] Closing session: 0x16cfb81e2610008
+2019-09-04 11:31:52 052 [DEBUG] [org.apache.zookeeper.ClientCnxnclose] Closing client for session: 0x16cfb81e2610008
+2019-09-04 11:31:52 052 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e2610008, packet:: clientPath:null serverPath:null finished:false header:: 7,-11  replyHeader:: 7,60,0  request:: null response:: null
+2019-09-04 11:31:52 052 [DEBUG] [org.apache.zookeeper.ClientCnxndisconnect] Disconnecting client for session: 0x16cfb81e2610008
+2019-09-04 11:31:52 052 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadrun] An exception was thrown while closing send thread for session 0x16cfb81e2610008 : Unable to read additional data from server sessionid 0x16cfb81e2610008, likely server has closed socket
+2019-09-04 11:31:52 052 [INFO ] [org.apache.zookeeper.ZooKeeperclose] Session: 0x16cfb81e2610008 closed
+2019-09-04 11:31:52 052 [INFO ] [org.apache.zookeeper.ClientCnxn$EventThreadrun] EventThread shut down for session: 0x16cfb81e2610008
+2019-09-04 11:40:09 009 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT
+2019-09-04 11:40:09 009 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:host.name=DESKTOP-NUUN904
+2019-09-04 11:40:09 009 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.version=1.8.0_221
+2019-09-04 11:40:09 009 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.vendor=Oracle Corporation
+2019-09-04 11:40:09 009 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.home=D:\Java\jdk1.8.0_221\jre
+2019-09-04 11:40:09 009 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.class.path=E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper\target\test-classes;E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper\target\classes;E:\repository\maven339\com\101tec\zkclient\0.11\zkclient-0.11.jar;E:\repository\maven339\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;E:\repository\maven339\org\apache\zookeeper\zookeeper\3.4.13\zookeeper-3.4.13.jar;E:\repository\maven339\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;E:\repository\maven339\log4j\log4j\1.2.17\log4j-1.2.17.jar;E:\repository\maven339\jline\jline\0.9.94\jline-0.9.94.jar;E:\repository\maven339\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;E:\repository\maven339\io\netty\netty\3.10.6.Final\netty-3.10.6.Final.jar;E:\repository\maven339\junit\junit\4.12\junit-4.12.jar;E:\repository\maven339\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\sts-3.9.9.RELEASE\configuration\org.eclipse.osgi\305\0\.cp;D:\sts-3.9.9.RELEASE\configuration\org.eclipse.osgi\304\0\.cp
+2019-09-04 11:40:09 009 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.library.path=D:\Java\jdk1.8.0_221\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Java/jre1.8.0_221/bin/server;D:/Java/jre1.8.0_221/bin;D:/Java/jre1.8.0_221/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Java\jdk1.8.0_221\bin\;D:\apache-maven-3.6.0\bin\;D:\apache-maven-3.6.0\bin\;D:\Program Files\Git\cmd;D:\MySQL\MySQL Server 5.1\bin;D:\restclient\;C:\Users\future\AppData\Local\Microsoft\WindowsApps;;D:\sts-3.9.9.RELEASE;;.
+2019-09-04 11:40:09 009 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.io.tmpdir=C:\Users\future\AppData\Local\Temp\
+2019-09-04 11:40:09 009 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.compiler=<NA>
+2019-09-04 11:40:09 009 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.name=Windows 10
+2019-09-04 11:40:09 009 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.arch=amd64
+2019-09-04 11:40:09 009 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.version=10.0
+2019-09-04 11:40:09 009 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.name=future
+2019-09-04 11:40:09 009 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.home=C:\Users\future
+2019-09-04 11:40:09 009 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.dir=E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper
+2019-09-04 11:40:09 009 [INFO ] [org.apache.zookeeper.ZooKeeper<init>] Initiating client connection, connectString=192.168.36.151:2181 sessionTimeout=70000 watcher=com.xywei.zookeeper.ZookeeperNode$1@7382f612
+2019-09-04 11:40:09 009 [DEBUG] [org.apache.zookeeper.ClientCnxn<clinit>] zookeeper.disableAutoWatchReset is false
+2019-09-04 11:40:09 009 [INFO ] [com.xywei.zookeeper.ZookeeperNodetestCreateNodes] 要创建的节点有[/java, /java/spring, /java/spring/ioc]
+2019-09-04 11:40:18 018 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadlogStartConnect] Opening socket connection to server 192.168.36.151/192.168.36.151:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-04 11:40:18 018 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadprimeConnection] Socket connection established to 192.168.36.151/192.168.36.151:2181, initiating session
+2019-09-04 11:40:19 019 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadprimeConnection] Session establishment request sent on 192.168.36.151/192.168.36.151:2181
+2019-09-04 11:40:19 019 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadonConnected] Session establishment complete on server 192.168.36.151/192.168.36.151:2181, sessionid = 0x16cfb81e2610009, negotiated timeout = 40000
+2019-09-04 11:40:19 019 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e2610009, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,64,-101  request:: '/java,F  response::  
+2019-09-04 11:40:19 019 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e2610009, packet:: clientPath:null serverPath:null finished:false header:: 2,1  replyHeader:: 2,65,0  request:: '/java,#6d792076616c7565206973202f6a617661,v{s{31,s{'world,'anyone}}},0  response:: '/java 
+2019-09-04 11:40:19 019 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e2610009, packet:: clientPath:null serverPath:null finished:false header:: 3,3  replyHeader:: 3,65,-101  request:: '/java/spring,F  response::  
+2019-09-04 11:40:19 019 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e2610009, packet:: clientPath:null serverPath:null finished:false header:: 4,1  replyHeader:: 4,66,0  request:: '/java/spring,#6d792076616c7565206973202f6a6176612f737072696e67,v{s{31,s{'world,'anyone}}},0  response:: '/java/spring 
+2019-09-04 11:40:19 019 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e2610009, packet:: clientPath:null serverPath:null finished:false header:: 5,3  replyHeader:: 5,66,-101  request:: '/java/spring/ioc,F  response::  
+2019-09-04 11:40:19 019 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e2610009, packet:: clientPath:null serverPath:null finished:false header:: 6,1  replyHeader:: 6,67,0  request:: '/java/spring/ioc,#6d792076616c7565206973202f6a6176612f737072696e672f696f63,v{s{31,s{'world,'anyone}}},0  response:: '/java/spring/ioc 
+2019-09-04 11:40:19 019 [INFO ] [com.xywei.zookeeper.ZookeeperNodetestCreateNodes] >>>>>[/java, /java/spring, /java/spring/ioc]
+2019-09-04 11:40:19 019 [DEBUG] [org.apache.zookeeper.ZooKeeperclose] Closing session: 0x16cfb81e2610009
+2019-09-04 11:40:19 019 [DEBUG] [org.apache.zookeeper.ClientCnxnclose] Closing client for session: 0x16cfb81e2610009
+2019-09-04 11:40:19 019 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e2610009, packet:: clientPath:null serverPath:null finished:false header:: 7,-11  replyHeader:: 7,68,0  request:: null response:: null
+2019-09-04 11:40:19 019 [DEBUG] [org.apache.zookeeper.ClientCnxndisconnect] Disconnecting client for session: 0x16cfb81e2610009
+2019-09-04 11:40:19 019 [INFO ] [org.apache.zookeeper.ZooKeeperclose] Session: 0x16cfb81e2610009 closed
+2019-09-04 11:40:19 019 [INFO ] [org.apache.zookeeper.ClientCnxn$EventThreadrun] EventThread shut down for session: 0x16cfb81e2610009
+2019-09-04 11:44:00 000 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT
+2019-09-04 11:44:00 000 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:host.name=DESKTOP-NUUN904
+2019-09-04 11:44:00 000 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.version=1.8.0_221
+2019-09-04 11:44:00 000 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.vendor=Oracle Corporation
+2019-09-04 11:44:00 000 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.home=D:\Java\jdk1.8.0_221\jre
+2019-09-04 11:44:00 000 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.class.path=E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper\target\test-classes;E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper\target\classes;E:\repository\maven339\com\101tec\zkclient\0.11\zkclient-0.11.jar;E:\repository\maven339\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;E:\repository\maven339\org\apache\zookeeper\zookeeper\3.4.13\zookeeper-3.4.13.jar;E:\repository\maven339\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;E:\repository\maven339\log4j\log4j\1.2.17\log4j-1.2.17.jar;E:\repository\maven339\jline\jline\0.9.94\jline-0.9.94.jar;E:\repository\maven339\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;E:\repository\maven339\io\netty\netty\3.10.6.Final\netty-3.10.6.Final.jar;E:\repository\maven339\junit\junit\4.12\junit-4.12.jar;E:\repository\maven339\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\sts-3.9.9.RELEASE\configuration\org.eclipse.osgi\305\0\.cp;D:\sts-3.9.9.RELEASE\configuration\org.eclipse.osgi\304\0\.cp
+2019-09-04 11:44:00 000 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.library.path=D:\Java\jdk1.8.0_221\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Java/jre1.8.0_221/bin/server;D:/Java/jre1.8.0_221/bin;D:/Java/jre1.8.0_221/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Java\jdk1.8.0_221\bin\;D:\apache-maven-3.6.0\bin\;D:\apache-maven-3.6.0\bin\;D:\Program Files\Git\cmd;D:\MySQL\MySQL Server 5.1\bin;D:\restclient\;C:\Users\future\AppData\Local\Microsoft\WindowsApps;;D:\sts-3.9.9.RELEASE;;.
+2019-09-04 11:44:00 000 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.io.tmpdir=C:\Users\future\AppData\Local\Temp\
+2019-09-04 11:44:00 000 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.compiler=<NA>
+2019-09-04 11:44:00 000 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.name=Windows 10
+2019-09-04 11:44:00 000 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.arch=amd64
+2019-09-04 11:44:00 000 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.version=10.0
+2019-09-04 11:44:00 000 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.name=future
+2019-09-04 11:44:00 000 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.home=C:\Users\future
+2019-09-04 11:44:00 000 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.dir=E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper
+2019-09-04 11:44:00 000 [INFO ] [org.apache.zookeeper.ZooKeeper<init>] Initiating client connection, connectString=192.168.36.151:2181 sessionTimeout=70000 watcher=com.xywei.zookeeper.ZookeeperNode$1@7382f612
+2019-09-04 11:44:00 000 [DEBUG] [org.apache.zookeeper.ClientCnxn<clinit>] zookeeper.disableAutoWatchReset is false
+2019-09-04 11:44:10 010 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadlogStartConnect] Opening socket connection to server 192.168.36.151/192.168.36.151:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-04 11:44:10 010 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadprimeConnection] Socket connection established to 192.168.36.151/192.168.36.151:2181, initiating session
+2019-09-04 11:44:10 010 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadprimeConnection] Session establishment request sent on 192.168.36.151/192.168.36.151:2181
+2019-09-04 11:44:10 010 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadonConnected] Session establishment complete on server 192.168.36.151/192.168.36.151:2181, sessionid = 0x16cfb81e261000a, negotiated timeout = 40000
+2019-09-04 11:44:10 010 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e261000a, packet:: clientPath:null serverPath:null finished:false header:: 1,8  replyHeader:: 1,69,0  request:: '/java,F  response:: v{'spring} 
+2019-09-04 11:44:10 010 [INFO ] [com.xywei.zookeeper.ZookeeperNodetestGetNodeValue] >>>>>>>>>>>>[spring]
+2019-09-04 11:44:10 010 [DEBUG] [org.apache.zookeeper.ZooKeeperclose] Closing session: 0x16cfb81e261000a
+2019-09-04 11:44:10 010 [DEBUG] [org.apache.zookeeper.ClientCnxnclose] Closing client for session: 0x16cfb81e261000a
+2019-09-04 11:44:10 010 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e261000a, packet:: clientPath:null serverPath:null finished:false header:: 2,-11  replyHeader:: 2,70,0  request:: null response:: null
+2019-09-04 11:44:10 010 [DEBUG] [org.apache.zookeeper.ClientCnxndisconnect] Disconnecting client for session: 0x16cfb81e261000a
+2019-09-04 11:44:10 010 [INFO ] [org.apache.zookeeper.ZooKeeperclose] Session: 0x16cfb81e261000a closed
+2019-09-04 11:47:43 043 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT
+2019-09-04 11:47:43 043 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:host.name=DESKTOP-NUUN904
+2019-09-04 11:47:43 043 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.version=1.8.0_221
+2019-09-04 11:47:43 043 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.vendor=Oracle Corporation
+2019-09-04 11:47:43 043 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.home=D:\Java\jdk1.8.0_221\jre
+2019-09-04 11:47:43 043 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.class.path=E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper\target\test-classes;E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper\target\classes;E:\repository\maven339\com\101tec\zkclient\0.11\zkclient-0.11.jar;E:\repository\maven339\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;E:\repository\maven339\org\apache\zookeeper\zookeeper\3.4.13\zookeeper-3.4.13.jar;E:\repository\maven339\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;E:\repository\maven339\log4j\log4j\1.2.17\log4j-1.2.17.jar;E:\repository\maven339\jline\jline\0.9.94\jline-0.9.94.jar;E:\repository\maven339\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;E:\repository\maven339\io\netty\netty\3.10.6.Final\netty-3.10.6.Final.jar;E:\repository\maven339\junit\junit\4.12\junit-4.12.jar;E:\repository\maven339\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\sts-3.9.9.RELEASE\configuration\org.eclipse.osgi\305\0\.cp;D:\sts-3.9.9.RELEASE\configuration\org.eclipse.osgi\304\0\.cp
+2019-09-04 11:47:43 043 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.library.path=D:\Java\jdk1.8.0_221\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Java/jre1.8.0_221/bin/server;D:/Java/jre1.8.0_221/bin;D:/Java/jre1.8.0_221/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Java\jdk1.8.0_221\bin\;D:\apache-maven-3.6.0\bin\;D:\apache-maven-3.6.0\bin\;D:\Program Files\Git\cmd;D:\MySQL\MySQL Server 5.1\bin;D:\restclient\;C:\Users\future\AppData\Local\Microsoft\WindowsApps;;D:\sts-3.9.9.RELEASE;;.
+2019-09-04 11:47:43 043 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.io.tmpdir=C:\Users\future\AppData\Local\Temp\
+2019-09-04 11:47:43 043 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:java.compiler=<NA>
+2019-09-04 11:47:43 043 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.name=Windows 10
+2019-09-04 11:47:43 043 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.arch=amd64
+2019-09-04 11:47:43 043 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:os.version=10.0
+2019-09-04 11:47:43 043 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.name=future
+2019-09-04 11:47:43 043 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.home=C:\Users\future
+2019-09-04 11:47:43 043 [INFO ] [org.apache.zookeeper.EnvironmentlogEnv] Client environment:user.dir=E:\workspace-sts-3.9.9.RELEASE\xy-zookeeper
+2019-09-04 11:47:43 043 [INFO ] [org.apache.zookeeper.ZooKeeper<init>] Initiating client connection, connectString=192.168.36.151:2181 sessionTimeout=70000 watcher=com.xywei.zookeeper.ZookeeperNode$1@7382f612
+2019-09-04 11:47:43 043 [DEBUG] [org.apache.zookeeper.ClientCnxn<clinit>] zookeeper.disableAutoWatchReset is false
+2019-09-04 11:47:53 053 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadlogStartConnect] Opening socket connection to server 192.168.36.151/192.168.36.151:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-09-04 11:47:53 053 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadprimeConnection] Socket connection established to 192.168.36.151/192.168.36.151:2181, initiating session
+2019-09-04 11:47:53 053 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadprimeConnection] Session establishment request sent on 192.168.36.151/192.168.36.151:2181
+2019-09-04 11:47:53 053 [INFO ] [org.apache.zookeeper.ClientCnxn$SendThreadonConnected] Session establishment complete on server 192.168.36.151/192.168.36.151:2181, sessionid = 0x16cfb81e261000b, negotiated timeout = 40000
+2019-09-04 11:47:53 053 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e261000b, packet:: clientPath:null serverPath:null finished:false header:: 1,4  replyHeader:: 1,71,0  request:: '/java,F  response:: #6d792076616c7565206973202f6a617661,s{65,65,1567597218971,1567597218971,0,1,0,0,17,1,66} 
+2019-09-04 11:47:53 053 [INFO ] [com.xywei.zookeeper.ZookeeperNodetestGetNodeValue] 当前节点的值my value is /java
+2019-09-04 11:47:53 053 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e261000b, packet:: clientPath:null serverPath:null finished:false header:: 2,8  replyHeader:: 2,71,0  request:: '/java,F  response:: v{'spring} 
+2019-09-04 11:47:53 053 [INFO ] [com.xywei.zookeeper.ZookeeperNodetestGetNodeValue] 孩子节点>>>>>>>>>>>>[spring]
+2019-09-04 11:47:53 053 [DEBUG] [org.apache.zookeeper.ZooKeeperclose] Closing session: 0x16cfb81e261000b
+2019-09-04 11:47:53 053 [DEBUG] [org.apache.zookeeper.ClientCnxnclose] Closing client for session: 0x16cfb81e261000b
+2019-09-04 11:47:53 053 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadreadResponse] Reading reply sessionid:0x16cfb81e261000b, packet:: clientPath:null serverPath:null finished:false header:: 3,-11  replyHeader:: 3,72,0  request:: null response:: null
+2019-09-04 11:47:53 053 [DEBUG] [org.apache.zookeeper.ClientCnxndisconnect] Disconnecting client for session: 0x16cfb81e261000b
+2019-09-04 11:47:53 053 [DEBUG] [org.apache.zookeeper.ClientCnxn$SendThreadrun] An exception was thrown while closing send thread for session 0x16cfb81e261000b : Unable to read additional data from server sessionid 0x16cfb81e261000b, likely server has closed socket
+2019-09-04 11:47:53 053 [INFO ] [org.apache.zookeeper.ZooKeeperclose] Session: 0x16cfb81e261000b closed
+2019-09-04 11:47:53 053 [INFO ] [org.apache.zookeeper.ClientCnxn$EventThreadrun] EventThread shut down for session: 0x16cfb81e261000b
