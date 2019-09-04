@@ -2,6 +2,9 @@ package com.xywei.test;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 
 import org.junit.Test;
 
@@ -35,4 +38,17 @@ public class TestHello {
 			Collections.reverse(paths);
 		}
 	}
+
+	@Test
+	public void testMap() {
+		Map<String, String> map = new HashMap<String, String>();
+		map.put("k1", "val1");
+		map.put("k2", "val2");
+		map.put("k3", "val3");
+		for (Map.Entry<String, String> entry : map.entrySet()) {
+			System.out.println("key: " + entry.getKey() + ", value: " + entry.getValue());
+		}
+		
+	}
+	
 }

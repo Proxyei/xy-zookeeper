@@ -5,7 +5,12 @@ import static org.hamcrest.CoreMatchers.nullValue;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
 
 import org.apache.zookeeper.CreateMode;
 import org.apache.zookeeper.KeeperException;
@@ -36,6 +41,7 @@ public class ZookeeperNode {
 	private final static int SESSION_TIMEOUT = 70 * 1000;
 	private static ArrayList<String> paths = new ArrayList<String>();
 	private static ZooKeeper zooKeeper = null;
+	private static Map<String, String> nodesMap = new HashMap<String, String>();
 
 //	@Test
 	@Before
@@ -191,7 +197,7 @@ public class ZookeeperNode {
 	 */
 	@Test
 	public void testCreateNodes() {
-		String path = "/java/spring/ioc";
+		String path = "/java/spring/ioc/a/b/c/d/e/f/g/h/i/j";
 		initnitPaths(path);
 		if (null != paths) {
 			LOGGER.info("要创建的节点有" + paths);
@@ -243,15 +249,38 @@ public class ZookeeperNode {
 	public void testGetNodeValue() {
 
 		String path = "/java";
+		getNodeValue(path);
+		// TODO 不小心又忘记了map遍历
+		for (Map.Entry<String, String> entry : nodesMap.entrySet()) {
+			LOGGER.info(entry.getKey() + ">>>>>>>>>>>>>>>>>>>>>>>>>>>: " + entry.getValue());
+		}
 
-		try {
-			byte[] value = zooKeeper.getData(path, false, null);
-			String val = new String(value);
-			LOGGER.info("当前节点的值：" + val);
-			List<String> children = zooKeeper.getChildren(path, false);
-			LOGGER.info("孩子节点>>>>>>>>>>>>" + children);
-		} catch (KeeperException | InterruptedException e) {
-			e.printStackTrace();
+	}
+
+	private static void getNodeValue(String path) {
+
+		if (!"".equals(path) && !"/".equals(path) && null != path) {
+
+			try {
+
+				if (!nodeExist(path)) {
+					LOGGER.warn(path + "节点不存在");
+				} else {
+					byte[] val = zooKeeper.getData(path, false, null);
+					String value = new String(val);
+					nodesMap.put(path, value);
+					List<String> chirldrenPath = zooKeeper.getChildren(path, false);
+					for (String chirldPath : chirldrenPath) {
+						getNodeValue(path + "/" + chirldPath);
+					}
+
+				}
+
+			} catch (KeeperException | InterruptedException e) {
+				e.printStackTrace();
+				LOGGER.error(e.getMessage(), e.getStackTrace());
+			}
+
 		}
 	}
 
