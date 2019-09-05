@@ -37,7 +37,8 @@ public class ZookeeperNode {
 
 	private final static String HOST_IP = "192.168.36.151";
 	private final static int ZOOKEEPER_PORT = 2181;
-	private final static String CONNECTION_STRING = "192.168.36.151:2181";
+	private final static String CONNECTION_STRING = "192.168.36.151:2191,192.168.36.151:2192,192.168.36.151:2193";
+//	private final static String CONNECTION_STRING = "192.168.36.151:2181";
 	private final static int SESSION_TIMEOUT = 70 * 1000;
 	private static ArrayList<String> paths = new ArrayList<String>();
 	private static ZooKeeper zooKeeper = null;
